@@ -27,3 +27,29 @@
    ```bash
    git clone https://github.com/yourusername/disk-overy.git
    cd disk-overy
+
+2. Make the script executable:
+   chmod +x check-disk.sh
+   
+3. Configure Twilio credentials: Edit the .twilio-config.sh file and add your Twilio credentials and phone numbers
+
+4. Secure the configuration file:
+   chmod 600 .twilio-config.sh
+
+**Usage**
+./disk-overy.sh
+
+**Dry-Run Mode**
+To test the script without sending SMS alerts, enable dry-run mode by setting DRY_RUN=true in the script
+
+**Customization**
+Disk Usage Limit: Modify the LIMIT variable in the script to set the disk usage threshold (default: 47%).
+Excluded Partitions: Update the EXCLUDE_PARTITIONS variable to exclude specific partitions from monitoring.
+Monitored Directories: Add directories and their size thresholds to the MONITORED_DIRECTORIES array.
+
+License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+Contributing
+Feel free to submit issues or pull requests to improve **Disk-overy**!
+   
