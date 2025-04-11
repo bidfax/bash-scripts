@@ -36,20 +36,20 @@
 4. Secure the configuration file:
    chmod 600 .twilio-config.sh
 
-**Usage**
+## **Usage**
 ./disk-overy.sh
 
-**Dry-Run Mode**
+## **Dry-Run Mode**
 To test the script without sending SMS alerts, enable dry-run mode by setting DRY_RUN=true in the script
 
-**Customization**
+## **Customization**
 Disk Usage Limit: Modify the LIMIT variable in the script to set the disk usage threshold (default: 47%).
 Excluded Partitions: Update the EXCLUDE_PARTITIONS variable to exclude specific partitions from monitoring.
 Monitored Directories: Add directories and their size thresholds to the MONITORED_DIRECTORIES array.
 
-License
+## **License**
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-Contributing
+## **Contributing**
 Feel free to submit issues or pull requests to improve **Disk-overy**!
    
