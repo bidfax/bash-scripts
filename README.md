@@ -43,9 +43,9 @@
 To test the script without sending SMS alerts, enable dry-run mode by setting DRY_RUN=true in the script
 
 ## **Customization**
-Disk Usage Limit: Modify the LIMIT variable in the script to set the disk usage threshold (default: 47%).
-Excluded Partitions: Update the EXCLUDE_PARTITIONS variable to exclude specific partitions from monitoring.
-Monitored Directories: Add directories and their size thresholds to the MONITORED_DIRECTORIES array.
+Disk Usage Limit: Modify the LIMIT variable in the script to set the disk usage threshold (default: 47%).  
+Excluded Partitions: Update the EXCLUDE_PARTITIONS variable to exclude specific partitions from monitoring.  
+Monitored Directories: Add directories and their size thresholds to the MONITORED_DIRECTORIES array.  
 
 ## **License**
 This project is licensed under the MIT License. See the LICENSE file for details.
