@@ -27,17 +27,21 @@
 ## Installation  
 1. Clone the repository:  
    ```bash  
-   git clone https://github.com/yourusername/watchtower.git  
+   git clone https://github.com/bidfax/watchtower.git  
    cd watchtower  
+   ```
 
 2. Make the script executable:  
    ```bash
    chmod +x watchtower.sh  
+   ```
 
 ## Usage  
 Run the script:
   ```bash
   ./watchtower.sh  
+  ```
+
 
 ## Configuration  
 You can customize thresholds by modifying the following variables in the script:  
