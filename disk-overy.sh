@@ -1,5 +1,20 @@
-#!/bin/bash
+#############################################################################################
+## Script Name: Disk-overy                                                                 ##
+## Description:                                                                            ##
+## This script monitors disk usage and sends alerts via SMS using Twilio.                  ##
+## It checks the disk usage of all mounted partitions and specific directories.            ##
+## It sends critical and warning alerts based on usage thresholds.                         ##
+## It also logs historical disk usage data for trend analysis.                             ##
+## It requires Twilio credentials for sending SMS alerts.                                  ##
+## It excludes certain partitions from monitoring.                                         ##
+## It can be run in dry-run mode for testing purposes.                                     ##
+## It uses the Twilio API to send SMS messages.                                            ##
+## It requires the Twilio account SID, auth token, and phone numbers to be set up.         ##
+## Made by: bidfax                                                                         ##
+#############################################################################################
 
+
+#!/bin/bash
 # DRY RUN to test if twilio would send SMS message
 DRY_RUN=true  # Set to true for testing
 
